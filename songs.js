@@ -11,6 +11,11 @@ for(i=0; i<songs.length; i++){
 	songs[i] = songs[i].replace('@' , "");
 	songs[i] = songs[i].replace('(' , "");
 	songs[i] = songs[i].replace('!' , "");
+	
 }
+songs.unshift("Swim to the Moon - Between the Buried and Me on the album Colors");
+songs.push("Icarus Lives! - Periphery on the album Periphery");
+
+
 console.log(songs);
 
