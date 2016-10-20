@@ -1,0 +1,51 @@
+nav {
+	background-color: salmon;
+	border: 1px solid black;
+	width: 50%;
+	margin-bottom: 15px;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+	width: 100%;
+}
+
+nav li {
+	display:inline-block;
+	text-align: left;
+}
+
+nav li a {
+	color: blue;
+	font-size: .875em;
+}
+
+
+
+#bluebox {
+	border: 1px solid black;
+	width: 15%;
+	float: left;
+}
+
+#SongName {
+	background-color: #FAFAD2;
+	width: 480px;
+	border: 1px solid black;
+	margin-left: 15px;
+	float: left;
+
+}
+
+#SongName ul {
+	list-style-type: none;
+
+}
+
+#SongName li {
+	display: inline-block;
+	text-align: center;
+	padding: 0 15px 0 15px;
+}
+
